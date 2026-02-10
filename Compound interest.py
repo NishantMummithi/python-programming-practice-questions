@@ -1,0 +1,5 @@
+p=float(input("P:"))
+r=float(input("B:"))
+t=float(input("t:"))
+ci=p*((1+r/100)**t)
+print(f"{ci:.3f}")
